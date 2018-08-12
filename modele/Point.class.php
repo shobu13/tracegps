@@ -61,8 +61,8 @@ class Point
     // $latitude2  : latitude point 2 (en degrés décimaux)
     // $longitude2 : longitude point 2 (en degrés décimaux)
     // fournit     : la distance (en Km) entre les 2 points
-    private static function getDistanceBetween ($latitude1, $longitude1, $latitude2, $longitude2)
-    {	if (abs($latitude1 - $latitude2) < 0.000001 && abs($longitude1 - $longitude2) < 0.000001) return 0;
+    private static function getDistanceBetween ($latitude1, $longitude1, $latitude2, $longitude2) {
+    if (abs($latitude1 - $latitude2) < 0.000001 && abs($longitude1 - $longitude2) < 0.000001) return 0;
     try
     {
         $a = pi() / 180;
