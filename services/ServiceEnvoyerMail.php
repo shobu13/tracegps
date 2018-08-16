@@ -1,9 +1,8 @@
 ﻿<?php
-// fichier : http://sio.lyceedelasalle.fr/ae/services/ServiceEnvoyerMail.php
-// Dernière mise à jour : 18/5/2018 par Jim
+// fichier : http://sio.lyceedelasalle.fr/tracegps/services/ServiceEnvoyerMail.php
+// Dernière mise à jour : 16/8/2018 par Jim
 
-// Rôle : ce service permet à une application d'envoyer un courriel à partir du serveur serv-wamp1 du lycée De La Salle
-// Il ne peut être appelé qu'à partir d'un poste de travail du lycée.
+// Rôle : ce service permet à une application d'envoyer un courriel à partir du serveur OVH utilisé pour le domaine sio.lyceedelasalle.fr
 // Le service web doit recevoir 4 paramètres : adresseDestinataire, sujet, message, adresseEmetteur
 //     adresseDestinataire : l'adresse du destinataire
 //     sujet               : le sujet du courriel

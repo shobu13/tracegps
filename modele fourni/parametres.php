@@ -13,27 +13,9 @@ $PARAM_USER = "tracegps";		// nom de l'utilisateur
 $PARAM_PWD = "spgecart";		// son mot de passe
 
 // Autres paramètres -----------------------------------------------------------------------------------------
-global $TITRE_APPLI, $NOM_APPLI, $CLE_API, $FREQUENCE_AFFICHAGE, $ADR_MAIL_EMETTEUR, $ADR_SERVICE_WEB;
-
-// titre de l'application (en entête des vues)
-$TITRE_APPLI = "TraceGPS";
-
-// nom de l'application (en pied de page des vues)
-$NOM_APPLI = "Suivi de parcours sportifs en extérieur";
-
-// clé API pour Google Maps
-$CLE_API = "AIzaSyCdcnXm0lYxmuWIWYPDO9jIpZSZgCvGzRw";
-
-// valeur de la fréquence de réactualisation de l'affichage (en secondes) d'un parcours
-$FREQUENCE_AFFICHAGE = 60;			// 60 sec ou 1 mn
 
 // adresse de l'émetteur lors d'un envoi de courriel
 $ADR_MAIL_EMETTEUR = "delasalle.sio.crib@gmail.com";
-
-// adresse du service web en localhost -----------------------------------------------------------------------
-$ADR_SERVICE_WEB = "http://localhost/ws-php-cartron/tracegps/services/";
-// adresse du service web chez OVH ---------------------------------------------------------------------------
-//$ADR_SERVICE_WEB = "http://sio.lyceedelasalle.fr/tracegps/services/";
 
 // ATTENTION : on ne met pas de balise de fin de script pour ne pas prendre le risque
 // d'enregistrer d'espaces après la balise de fin de script !!!!!!!!!!!!
